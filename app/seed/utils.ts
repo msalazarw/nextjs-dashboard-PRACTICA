@@ -1,4 +1,4 @@
-import { Revenue } from "../seed/definitions";
+import { Revenue } from "../lib/definitions";
 
 export const formatCurrency = (amount: number) => {
   return (amount / 100).toLocaleString("en-US", {
